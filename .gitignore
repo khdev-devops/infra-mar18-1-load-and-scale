@@ -1,0 +1,20 @@
+# Ignore OpenTofu state files and backups
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+
+# Ignore OpenTofu cache and provider binaries
+.terraform/
+.tofu/
+.terraform.lock.hcl
+
+# Ignore plan output files (temporary and binary)
+*.out
+
+# Ignore environment-specific configuration
+*.tfvars
+*.tfvars.json
+
+# Misc
+*.zip

@@ -1,0 +1,4 @@
+# För att sätta dina egna värden kopiera denna fil och döp till
+# terraform.tfvars
+
+trusted_ip_for_ssh = "<cloudshell-IP>/32"
